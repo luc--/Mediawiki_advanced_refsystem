@@ -5,8 +5,8 @@ Ce modèle a pour but de <section begin=description />permettre un usage avancé
 ;Entrées
 <pre>{{Note|t|id|tr}}</pre>
 
-:* '''t''' : texte de la note (''ordinairement placé entre <nowiki><ref></nowiki> et <nowiki></ref></nowiki>'') ;
-:* '''id''' : identifiant de la note (''correspond à <code><ref name="id"></code>) ;
+:* '''t''' : texte de la note (''ordinairement placé entre <nowiki><ref></nowiki> et <nowiki></ref></nowiki>'') ;
+:* '''id''' : identifiant de la note (''correspond à <code><nowiki><ref name="id"></nowiki></code>) ;
 :* '''tr''' : texte affichée à la place de l'exposant.
 
 : Toutes les entrées sont optionnelles.
@@ -17,18 +17,20 @@ Ce modèle a pour but de <section begin=description />permettre un usage avancé
 
 
 :<pre>Note normale{{Note|t1}}</pre>
-:Pas de note{{Note}}
+:Note normale{{Note|t1}}
 
 
 :<pre>Note avec name{{Note|t2|id2}}</pre>
-:Pas de note{{Note}}
+:Note avec name{{Note|t2|id2}}
 
 
-:pre>Note avec tr : {{Note|t3|id3|tr3}}</pre>
-:Pas de note{{Note}L}
+:<pre>Note avec tr : {{Note|t3|id3|tr3}}</pre>
+:Note avec tr : {{Note|t3|id3|tr3}}
 
-;Références affichées
-:<references />
+
 
 ;Voir aussi
 :* {{m|Refa}} et {{m|Refl}} : deux autres modèles pour la gestion des notes
+
+
+<noinclude>[[Catégorie:Documentations]]</noinclude>
