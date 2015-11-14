@@ -1,0 +1,34 @@
+;Description
+
+Ce modèle a pour but de <section begin=description />permettre un usage avancé des notes de bas de page<section end=description />.
+
+;Entrées
+<pre>{{Note|t|id|tr}}</pre>
+
+:* '''t''' : texte de la note (''ordinairement placé entre <nowiki><ref></nowiki> et <nowiki></ref></nowiki>'') ;
+:* '''id''' : identifiant de la note (''correspond à <code><ref name="id"></code>) ;
+:* '''tr''' : texte affichée à la place de l'exposant.
+
+: Toutes les entrées sont optionnelles.
+
+;Exemples
+:<pre>Pas de note{{Note}}</pre>
+:Pas de note{{Note}}
+
+
+:<pre>Note normale{{Note|t1}}</pre>
+:Pas de note{{Note}}
+
+
+:<pre>Note avec name{{Note|t2|id2}}</pre>
+:Pas de note{{Note}}
+
+
+:pre>Note avec tr : {{Note|t3|id3|tr3}}</pre>
+:Pas de note{{Note}L}
+
+;Références affichées
+:<references />
+
+;Voir aussi
+:* {{m|Refa}} et {{m|Refl}} : deux autres modèles pour la gestion des notes
