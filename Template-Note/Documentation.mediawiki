@@ -31,6 +31,3 @@ Ce modèle a pour but de <section begin=description />permettre un usage avancé
 
 ;Voir aussi
 :* {{m|Refa}} et {{m|Refl}} : deux autres modèles pour la gestion des notes
-
-
-<noinclude>[[Catégorie:Documentations]]</noinclude>
