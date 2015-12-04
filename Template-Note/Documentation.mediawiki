@@ -6,7 +6,7 @@ Ce modèle a pour but de <section begin=description />permettre un usage avancé
 <pre>{{Note|t|id|tr}}</pre>
 
 :* '''t''' : texte de la note (''ordinairement placé entre <nowiki><ref></nowiki> et <nowiki></ref></nowiki>'') ;
-:* '''id''' : identifiant de la note (''correspond à <code><nowiki><ref name="id"></nowiki></code>) ;
+:* '''id''' : identifiant de la note (''correspond à <code><nowiki><ref name="id"></nowiki></code>'') – '''{{sc|Attention}} Ne doit pas être un nombre seul''' : on écrira donc par exemple <code>t3</code> au lieu de <code>3</code>''' ;
 :* '''tr''' : texte affichée à la place de l'exposant.
 
 : Toutes les entrées sont optionnelles.
@@ -27,7 +27,18 @@ Ce modèle a pour but de <section begin=description />permettre un usage avancé
 :<pre>Note avec tr : {{Note|t3|id3|tr3}}</pre>
 :Note avec tr : {{Note|t3|id3|tr3}}
 
+:<pre>{{Exemple texte}}{{Note|t4|id4| <strong>tr4</strong>}}{{Exemple texte}}<ref follow=id4> Suite de la note</ref></pre>
+{{Exemple texte}}{{Note|t4|id4| <strong>tr4</strong>}}{{Exemple texte}}<ref follow=id4> Suite de la note</ref>
 
+; Faire référence à une note.
+:<pre>[[#cite_ref-id4|Référence au numéro id4]]</pre>
+:[[#cite_ref-id4|Référence au numéro id4]]
+
+:<pre>[[#cite_note-id4|Référence au texte de la note id4]]</pre>
+:[[#cite_note-id4|Référence au texte de la note id4]]
 
 ;Voir aussi
 :* {{m|Refa}} et {{m|Refl}} : deux autres modèles pour la gestion des notes
+
+
+<noinclude>[[Catégorie:Documentations]][[Catégorie:Modèles de notes]]</noinclude>
